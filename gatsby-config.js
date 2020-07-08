@@ -5,6 +5,21 @@ module.exports = {
     author: `@nandadiasmusic`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Montserrat`,
+            variants: [`400`, `700`]
+          },
+          {
+            family: `Roboto Mono`,
+            variants: [`300`, `500`]
+          },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
