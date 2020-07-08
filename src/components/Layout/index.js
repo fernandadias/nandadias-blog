@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyles />
       <Sidebar />
-      <main>{children}</main>
+      {children}
     </>
   )
 }
