@@ -70,7 +70,7 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
   }
 
-  p, li, blockquote{
+  p, li, blockquote, a{
     font-family: 'Roboto Mono', monospace;
     letter-spacing: 0.02em;
   }
