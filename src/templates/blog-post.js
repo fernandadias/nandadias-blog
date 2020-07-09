@@ -3,9 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import Avatar from "../components/Avatar"
-import Olar from '../components/Olar'
-import Categories from '../components/Categories'
+import Share from "../components/Share"
 
 import * as S from './styles'
 
@@ -39,7 +37,6 @@ const BlogPost = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      {category}
       <S.ContentContainer>
         <S.PostContainer>
           <S.PostMarkWrapper>
@@ -58,10 +55,8 @@ const BlogPost = ({ data }) => {
         </S.PostContainer>
         <S.ExtrasContainer>
           <S.BioContainer>
-            <Avatar />
-            <Olar />
+            <Share category={category} />
           </S.BioContainer>
-          <Categories />
         </S.ExtrasContainer>
       </S.ContentContainer>
     </Layout>

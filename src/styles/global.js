@@ -53,7 +53,6 @@ const GlobalStyles = createGlobalStyle`
     transition: all .2s cubic-bezier(0, 0.94, 0.61, 0.72);
   }
   body {
-    background: #191A1B;
     padding: 40px;
     line-height: 1;
     font-size: 100%;
@@ -87,6 +86,8 @@ const GlobalStyles = createGlobalStyle`
     --frontColor: #FE9C56;
     --dataColor: #56EAFE;
     --backColor: #56FEB7;
+
+    background: var(--background);
   }
   body.light {
     --background: #F4F6F9;
@@ -96,10 +97,12 @@ const GlobalStyles = createGlobalStyle`
     --theme: #2516C7;
     --musicColor: #89DF1C;
     --designColor: #FE5688;
-    --productColor: #EAC02C;
+    --productColor: #DFA534;
     --frontColor: #FE9C56;
     --dataColor: #56EAFE;
     --backColor: #56FEB7;
+
+    background: var(--background);
   }
 
 
