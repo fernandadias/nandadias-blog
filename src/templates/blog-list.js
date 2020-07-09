@@ -5,6 +5,9 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
 import Pagination from "../components/Pagination"
+import Avatar from "../components/Avatar"
+import Olar from '../components/Olar'
+import Categories from '../components/Categories'
 
 import * as S from './styles'
 
@@ -21,29 +24,38 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Home" />
-      <S.PostsContainer>
-        {postList.map(({
-          node: {
-            frontmatter: { title, date, category },
-            timeToRead,
-            fields: { slug }
-          },
-        }) => (
-            <PostItem
-              slug={slug}
-              category={category}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-            />
-          ))}
-        <Pagination
-          isFirst={isFirst}
-          isLast={isLast}
-          nextPage={nextPage}
-          prevPage={prevPage}
-        />
-      </S.PostsContainer>
+      <S.ContentContainer>
+        <S.PostContainer>
+          {postList.map(({
+            node: {
+              frontmatter: { title, date, category },
+              timeToRead,
+              fields: { slug }
+            },
+          }) => (
+              <PostItem
+                slug={slug}
+                category={category}
+                date={date}
+                timeToRead={timeToRead}
+                title={title}
+              />
+            ))}
+          <Pagination
+            isFirst={isFirst}
+            isLast={isLast}
+            nextPage={nextPage}
+            prevPage={prevPage}
+          />
+        </S.PostContainer>
+        <S.ExtrasContainer>
+          <S.BioContainer>
+            <Avatar />
+            <Olar />
+          </S.BioContainer>
+          <Categories />
+        </S.ExtrasContainer>
+      </S.ContentContainer>
     </Layout>
   )
 

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const PaginationContainer = styled.div`
 
-  padding-bottom: 40px;
   margin-left: -20px;
 
   a{
