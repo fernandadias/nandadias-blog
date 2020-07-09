@@ -74,7 +74,7 @@ const GlobalStyles = createGlobalStyle`
     letter-spacing: 0.02em;
   }
 
-  body {
+  body.dark {
     --background: #191A1B;
     --solid: #0F0F0F;
     --titles: #E8EAEE;
