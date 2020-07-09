@@ -8,6 +8,8 @@ import { Youtube } from "@styled-icons/remix-fill/Youtube"
 import { Behance } from "@styled-icons/remix-fill/Behance"
 import { Close } from "@styled-icons/remix-fill/Close"
 import { Coffee } from "@styled-icons/fa-solid/Coffee"
+import { ArrowDropLeft as Left } from "@styled-icons/remix-fill/ArrowDropLeft"
+import { ArrowDropRight as Right } from "@styled-icons/remix-fill/ArrowDropRight"
 
 
 const Icons = {
@@ -20,7 +22,9 @@ const Icons = {
   Youtube,
   Behance,
   Close,
-  Coffee
+  Coffee,
+  Left,
+  Right
 }
 
 export default Icons

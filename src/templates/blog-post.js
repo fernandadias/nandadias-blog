@@ -4,10 +4,14 @@ import { graphql } from 'gatsby'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Share from "../components/Share"
+import RecommendedPosts from "../components/RecommendedPosts"
 
 import * as S from './styles'
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext }) => {
+
+  const next = pageContext.nextPost
+  const previous = pageContext.previousPost
 
   const post = data.markdownRemark
   const { title, category, date } = post.frontmatter
@@ -52,6 +56,7 @@ const BlogPost = ({ data }) => {
           </S.PostMarkWrapper>
           <S.MarkdownContent category={category} dangerouslySetInnerHTML={{ __html: html }} >
           </S.MarkdownContent>
+          <RecommendedPosts next={next} previous={previous} />
         </S.PostContainer>
         <S.ExtrasContainer>
           <S.BioContainer>
