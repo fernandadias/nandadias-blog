@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import Share from "../components/Share"
 import RecommendedPosts from "../components/RecommendedPosts"
+import Comments from "../components/Comments"
 
 import * as S from './styles'
 
@@ -57,6 +58,7 @@ const BlogPost = ({ data, pageContext }) => {
           <S.MarkdownContent category={category} dangerouslySetInnerHTML={{ __html: html }} >
           </S.MarkdownContent>
           <RecommendedPosts next={next} previous={previous} />
+          <Comments url={post.fields.slug} title={title} />
         </S.PostContainer>
         <S.ExtrasContainer>
           <S.BioContainer>
@@ -72,6 +74,9 @@ const BlogPost = ({ data, pageContext }) => {
 export const query = graphql`
   query Post($slug: String) {
     markdownRemark(fields: {slug: {eq: $slug}}) {
+      fields {
+        slug
+      }
       frontmatter {
         title
         date
