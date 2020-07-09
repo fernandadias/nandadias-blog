@@ -15,7 +15,7 @@ module.exports = {
         fonts: [
           {
             family: `Montserrat`,
-            variants: [`400`, `700`]
+            variants: [`400`, `700`, `900`]
           },
           {
             family: `Roboto Mono`,

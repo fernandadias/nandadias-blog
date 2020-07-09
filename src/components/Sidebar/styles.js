@@ -7,6 +7,10 @@ export const SidebarContainer = styled.aside`
   flex-direction: column;
   height: 100vh;
   position: fixed;
+
+  @media(max-width: 900px){
+    display: none;
+  }
 `
 
 export const LogoWapper = styled.div`

@@ -22,41 +22,43 @@ const BlogList = props => {
   const nextPage = `/page/${currentPage + 1}`
 
   return (
-    <Layout>
-      <SEO title="Home" />
-      <S.ContentContainer>
-        <S.PostContainer>
-          {postList.map(({
-            node: {
-              frontmatter: { title, date, category },
-              timeToRead,
-              fields: { slug }
-            },
-          }) => (
-              <PostItem
-                slug={slug}
-                category={category}
-                date={date}
-                timeToRead={timeToRead}
-                title={title}
-              />
-            ))}
-          <Pagination
-            isFirst={isFirst}
-            isLast={isLast}
-            nextPage={nextPage}
-            prevPage={prevPage}
-          />
-        </S.PostContainer>
-        <S.ExtrasContainer>
-          <S.BioContainer>
-            <Avatar />
-            <Olar />
-          </S.BioContainer>
-          <Categories />
-        </S.ExtrasContainer>
-      </S.ContentContainer>
-    </Layout>
+    <>
+      <Layout>
+        <SEO title="Home" />
+        <S.ContentContainer>
+          <S.PostContainer>
+            {postList.map(({
+              node: {
+                frontmatter: { title, date, category },
+                timeToRead,
+                fields: { slug }
+              },
+            }) => (
+                <PostItem
+                  slug={slug}
+                  category={category}
+                  date={date}
+                  timeToRead={timeToRead}
+                  title={title}
+                />
+              ))}
+            <Pagination
+              isFirst={isFirst}
+              isLast={isLast}
+              nextPage={nextPage}
+              prevPage={prevPage}
+            />
+          </S.PostContainer>
+          <S.ExtrasContainer>
+            <S.BioContainer>
+              <Avatar />
+              <Olar />
+            </S.BioContainer>
+            <Categories />
+          </S.ExtrasContainer>
+        </S.ContentContainer>
+      </Layout>
+    </>
   )
 
 }

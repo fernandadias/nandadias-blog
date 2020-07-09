@@ -7,12 +7,20 @@ export const ContentContainer = styled.main`
   flex-direction: row;
   justify-content: space-between;
 
+  @media(max-width: 900px){
+    margin-left: 20px;
+  }
+
 `
 
 export const PostContainer = styled.section`
   flex: 1;
   max-width: 900px;
   padding-right: 40px;
+
+  @media(max-width: 900px){
+    padding-right: 0;
+  }
 
 `
 export const ExtrasContainer = styled.section`
@@ -27,6 +35,10 @@ export const ExtrasContainer = styled.section`
 
   @media(max-height: 900px){
     margin-top: 0;
+  }
+
+  @media(max-width: 900px){
+    display: none;
   }
 
 `

@@ -76,6 +76,8 @@ const GlobalStyles = createGlobalStyle`
 
   body.dark {
     --background: #191A1B;
+    --backgroundRGBA-solid: rgba(25,26,27,1);
+    --backgroundRGBA-transparent: rgba(25,26,27,0);
     --solid: #0F0F0F;
     --titles: #E8EAEE;
     --texts: #878790;
@@ -91,16 +93,18 @@ const GlobalStyles = createGlobalStyle`
   }
   body.light {
     --background: #F4F6F9;
+    --backgroundRGBA-solid: rgba(244,246,249,1);
+    --backgroundRGBA-transparent: rgba(244,246,249,0);
     --solid: #FAFCFF;
     --titles: #42484F;
     --texts: #878790;
     --theme: #2516C7;
-    --musicColor: #89DF1C;
+    --musicColor: #7BBC28;
     --designColor: #FE5688;
     --productColor: #DFA534;
     --frontColor: #FE9C56;
-    --dataColor: #56EAFE;
-    --backColor: #56FEB7;
+    --dataColor: #2FC3D8;
+    --backColor: #268B61;
 
     background: var(--background);
   }

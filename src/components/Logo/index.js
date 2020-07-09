@@ -1,25 +1,13 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 
-const Logo = () => {
+import * as S from './styles'
 
-  const { logoImage } = useStaticQuery(graphql`
+const Logo = () => (
 
-    query{
-      logoImage: file(relativePath: { eq: "nanda-dias-logo.png" }) {
-        childImageSharp{
-          fluid(maxWidth: 120) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  
-  ` )
+  <S.LogoLink to="/">
+    <h1>nandadias<span>_</span></h1>
+  </S.LogoLink>
 
-  return <Img fluid={logoImage.childImageSharp.fluid} />
-
-}
+)
 
 export default Logo
