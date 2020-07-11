@@ -12,6 +12,7 @@ export const MobileFooterContainer = styled.section`
   padding: 20px 40px;
   justify-content: space-between;
   bottom: 0;
+  overflow: hidden;
 
   @media(min-width: 900px){
     display: none;

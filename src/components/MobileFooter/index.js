@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Link } from "gatsby"
 import Icons from '../appIcons'
 
+import Categories from '../Categories'
+
 import * as S from './styles'
 
 const MobileFooter = () => {
@@ -14,11 +16,10 @@ const MobileFooter = () => {
     window.__onThemeChange = () => setTheme(window.__theme)
   }, [])
 
-
   return (
     <S.MobileFooterContainer>
       <S.Categories>
-        <Link>assuntos</Link>
+        <Link> assuntos</Link>
       </S.Categories>
       <S.Icons>
         <Link to="/search"><Icons.Search /></Link>
@@ -28,6 +29,7 @@ const MobileFooter = () => {
           <Icons.Light />
         </Link>
       </S.Icons>
+      <Categories />
     </S.MobileFooterContainer>
   )
 }

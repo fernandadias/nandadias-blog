@@ -6,6 +6,18 @@ export const CategoriesContainer = styled.p`
   bottom: 40px;
   text-align: right;
 
+  @media(max-width: 900px){
+    text-align: left;
+    right: unset;
+    left: 40px;
+    position: absolute;
+    bottom: 80px;
+
+    br{
+      display: none;
+    }
+  }
+
   a{
     font-family: Montserrat;
     font-style: normal;
@@ -16,6 +28,11 @@ export const CategoriesContainer = styled.p`
     text-decoration: none;
     padding: 2px 8px;
     margin: 0 2px;
+
+    @media(max-width: 900px){
+      display: block;
+      margin: 8px 2px;
+    }
 
     &.all{
       &.active, &.active:hover{
@@ -95,5 +112,9 @@ export const CategoriesContainer = styled.p`
     font-weight: normal;
     font-size: 20px;
     color: var(--titles);
+
+    @media(max-width: 900px){
+      display: none;
+    }
   }
 `
