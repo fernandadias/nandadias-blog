@@ -9,7 +9,7 @@ const MobileHeader = () => (
 
   <S.MobileHeaderContainer>
     <Logo />
-    <S.OlarOpen>
+    <S.OlarOpen to="/olar">
       <Avatar />
       <h1>olar,</h1>
     </S.OlarOpen>

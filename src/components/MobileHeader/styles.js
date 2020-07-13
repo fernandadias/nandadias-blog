@@ -23,7 +23,7 @@ export const MobileHeaderContainer = styled.div`
 
 export const OlarOpen = styled(Link)`
   display: flex;
-
+  text-decoration: none;
 
   div{
     width: 40px;
