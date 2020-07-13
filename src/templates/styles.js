@@ -19,7 +19,7 @@ export const PostContainer = styled.section`
   padding-right: 40px;
 
   @media(max-width: 900px){
-    padding-right: 0;
+    padding: 0 0 80px 0;
   }
 
 `

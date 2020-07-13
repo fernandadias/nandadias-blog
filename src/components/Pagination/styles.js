@@ -7,6 +7,10 @@ export const PaginationContainer = styled.div`
   border-top: 1px solid var(--texts);
   display: flex;
 
+  @media(max-width: 900px){
+    flex-direction: column;
+  }
+
   a{
     text-decoration: none;
     color: var(--titles);
@@ -19,6 +23,10 @@ export const PaginationContainer = styled.div`
     
     & + a {
       margin-left: 40px;
+
+      @media(max-width: 900px){
+        margin: 20px 0 0 0;
+      }
     }
 
     svg{

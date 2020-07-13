@@ -7,6 +7,11 @@ export const RecommendedContainer = styled.div`
   padding: 40px 0;
   border-top: 1px solid var(--texts);
   display: flex;
+
+  @media(max-width: 900px){
+    flex-direction: column;
+  }
+
 `
 
 export const RecommendedLink = styled(Link)`
@@ -21,6 +26,10 @@ export const RecommendedLink = styled(Link)`
   
   & + a {
     margin-left: 40px;
+
+    @media(max-width: 900px){
+      margin: 20px 0 0 0;
+    }
   }
 
   svg{
