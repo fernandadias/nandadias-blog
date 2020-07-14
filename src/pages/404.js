@@ -9,7 +9,7 @@ import NotFoundGIF from '../images/gifs/notfound-02.gif'
 import * as S from './styles'
 
 const NotFoundPage = () => (
-  <S.NotFoundMain>
+  <>
     <GlobalStyles />
     <SEO title="404: Not found" />
     <S.NotFoundContainer>
@@ -29,7 +29,7 @@ const NotFoundPage = () => (
       </div>
       <img alt="Página 404" src={NotFoundGIF} />
     </S.NotFoundContainer>
-  </S.NotFoundMain>
+  </>
 )
 
 export default NotFoundPage
