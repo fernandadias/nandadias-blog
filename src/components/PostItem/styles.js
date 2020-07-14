@@ -24,6 +24,10 @@ export const PostItemDate = styled.p`
   font-size: 12px;
   color: var(--texts);
   line-height: 40px;
+
+  svg{
+    width: 16px;
+  }
 `
 
 export const PostItemLine = styled.div`

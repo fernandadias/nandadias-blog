@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Icons from '../appIcons'
+import { Coffee } from "@styled-icons/fa-solid/Coffee"
 
 import * as S from './styles'
 
@@ -12,7 +14,7 @@ const PostItem = ({ slug, category, title, date, timeToRead }) => (
         <S.PostItemTitle>
           {title}
         </S.PostItemTitle>
-        <S.PostItemDate>{date} • um papo de {timeToRead}min</S.PostItemDate>
+        <S.PostItemDate>{date} • um papo de {timeToRead}min {timeToRead > 5 ? <>• Recomendo um < Coffee /></> : ``}</S.PostItemDate>
       </S.PostItemInfo>
     </S.PostItemWrapper>
   </S.PostItemLink>
