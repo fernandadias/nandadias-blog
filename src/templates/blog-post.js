@@ -17,6 +17,7 @@ const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const { title, category, date } = post.frontmatter
   const { timeToRead, html } = post
+  const { slug } = post.fields
   let categoryTranslate = category
 
   switch (category) {
@@ -62,7 +63,7 @@ const BlogPost = ({ data, pageContext }) => {
         </S.PostContainer>
         <S.ExtrasContainer>
           <S.BioContainer>
-            <Share category={category} />
+            <Share category={category} title={title} slug={slug} />
           </S.BioContainer>
         </S.ExtrasContainer>
       </S.ContentContainer>
