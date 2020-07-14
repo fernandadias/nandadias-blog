@@ -4,7 +4,7 @@ const queries = require('./src/utils/algolia_queries')
 
 module.exports = {
   siteMetadata: {
-    title: `Nanda Dias`,
+    title: `nanda dias`,
     description: `designer que também gosta de papos sobre front-end, back-end, dados, música e produto`,
     author: `@nandadiasmusic`,
   },

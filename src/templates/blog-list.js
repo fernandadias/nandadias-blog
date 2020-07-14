@@ -35,10 +35,11 @@ const BlogList = props => {
               },
             }) => (
                 <PostItem
+                  key={slug}
                   slug={slug}
                   category={category}
                   date={date}
-                  timeToRead={timeToRead}
+                  timeToRead={String(timeToRead)}
                   title={title}
                 />
               ))}

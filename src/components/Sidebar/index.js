@@ -36,26 +36,46 @@ const Sidebar = () => {
         </S.MenuLink>
       </S.ActionLinks>
       <S.SocialLinks>
-        <S.MenuLink to={socialLinks.twitter.url} target="_blank">
+        <S.MenuSocialLink
+          href={socialLinks.twitter.url}
+          title={`nanda dias no ${socialLinks.twitter.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="text">{socialLinks.twitter.label}</span>
           <span className="icon"><socialLinks.twitter.icon /></span>
-        </S.MenuLink>
-        <S.MenuLink to={socialLinks.instagram.url} target="_blank">
+        </S.MenuSocialLink>
+        <S.MenuSocialLink
+          href={socialLinks.instagram.url}
+          title={`nanda dias no ${socialLinks.instagram.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="text">{socialLinks.instagram.label}</span>
           <span className="icon"><socialLinks.instagram.icon /></span>
-        </S.MenuLink>
-        <S.MenuLink to={socialLinks.github.url} target="_blank">
+        </S.MenuSocialLink>
+        <S.MenuSocialLink
+          href={socialLinks.github.url}
+          title={`nanda dias no ${socialLinks.github.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="text">{socialLinks.github.label}</span>
           <span className="icon"><socialLinks.github.icon /></span>
-        </S.MenuLink>
-        <S.MenuLink to={socialLinks.behance.url} target="_blank">
+        </S.MenuSocialLink>
+        <S.MenuSocialLink
+          href={socialLinks.behance.url}
+          title={`nanda dias no ${socialLinks.behance.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="text">{socialLinks.behance.label}</span>
           <span className="icon"><socialLinks.behance.icon /></span>
-        </S.MenuLink>
-        <S.MenuLink to={socialLinks.linkedin.url} target="_blank">
+        </S.MenuSocialLink>
+        <S.MenuSocialLink
+          href={socialLinks.linkedin.url}
+          title={`nanda dias no ${socialLinks.linkedin.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           <span className="text">{socialLinks.linkedin.label}</span>
           <span className="icon"><socialLinks.linkedin.icon /></span>
-        </S.MenuLink>
+        </S.MenuSocialLink>
       </S.SocialLinks>
     </S.SidebarContainer>
 

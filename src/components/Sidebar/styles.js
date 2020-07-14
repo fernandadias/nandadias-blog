@@ -93,3 +93,54 @@ export const MenuLink = styled(Link)`
     }
   }
 `
+
+export const MenuSocialLink = styled.a`
+  display: inline;
+  padding: 0 0 16px 0;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 2px 8px;
+
+  &:hover{
+    background: var(--theme);
+
+    span.icon path{
+      color: var(--theme);
+    }
+
+    span{
+      color: var(--solid);
+    }
+  }
+
+  .icon{
+    display: inline-block;
+    width: 20px;
+    transform: rotate(90deg);
+    display: none;
+
+    path{
+      color: var(--texts);
+    }
+  }
+
+  .text{
+    display: inline-block;
+    color: var(--texts);
+  }
+
+
+  @media(max-height: 730px){
+    &:hover{
+      background: none;
+      color: var(--theme);
+    }
+    .text{
+      display: none;
+    }
+
+    .icon{
+      display: inline-block;
+    }
+  }
+`

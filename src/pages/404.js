@@ -18,14 +18,16 @@ const NotFoundPage = () => (
         <p>Se for um bug, me dê um grito:</p>
         <br />
         <p>
-          <Link
-            to="https://github.com/fernandadias/nandadias-blog"
-            target="_blank" rel="noreferrer">github</Link>
+          <a
+            href="https://github.com/fernandadias/nandadias-blog"
+            target="_blank"
+            title="nanda dias no github"
+            rel="noopener noreferrer">github</a>
             |
           <Link to="/">voltar para home</Link>
         </p>
       </div>
-      <img src={NotFoundGIF} />
+      <img alt="Página 404" src={NotFoundGIF} />
     </S.NotFoundContainer>
   </S.NotFoundMain>
 )

@@ -29,21 +29,41 @@ const OlarMobile = () => (
         <br />
         <p>se quiser bater um papo, pode me achar nesses lugares:</p>
         <br />
-        <Link to={socialLinks.twitter.url} target="_blank" rel="noreferrer">
+        <a
+          href={socialLinks.twitter.url}
+          title={`nanda dias no ${socialLinks.twitter.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           {socialLinks.twitter.label}
-        </Link>
-        <Link to={socialLinks.instagram.url} target="_blank" rel="noreferrer">
+        </a>
+        <a
+          href={socialLinks.instagram.url}
+          title={`nanda dias no ${socialLinks.instagram.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           {socialLinks.instagram.label}
-        </Link>
-        <Link to={socialLinks.github.url} target="_blank" rel="noreferrer">
+        </a>
+        <a
+          href={socialLinks.github.url}
+          title={`nanda dias no ${socialLinks.github.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           {socialLinks.github.label}
-        </Link>
-        <Link to={socialLinks.behance.url} target="_blank" rel="noreferrer">
+        </a>
+        <a
+          href={socialLinks.behance.url}
+          title={`nanda dias no ${socialLinks.behance.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           {socialLinks.behance.label}
-        </Link>
-        <Link to={socialLinks.linkedin.url} target="_blank" rel="noreferrer">
+        </a>
+        <a
+          href={socialLinks.linkedin.url}
+          title={`nanda dias no ${socialLinks.linkedin.label}`}
+          target="_blank"
+          rel="noopener noreferrer">
           {socialLinks.linkedin.label}
-        </Link>
+        </a>
       </S.OlarContentContainer>
 
     </S.OlarMobileContainer>
@@ -56,9 +76,10 @@ const OlarMobile = () => (
         <p>mas já que ta aqui, não quer olhar as issues desse blog que tenho abertas?</p>
         <br />
         <p>
-          <Link
-            to="https://github.com/fernandadias/nandadias-blog"
-            target="_blank" rel="noreferrer">github</Link>
+          <a
+            href="https://github.com/fernandadias/nandadias-blog"
+            title={`nanda dias no ${socialLinks.github.label}`}
+            target="_blank" rel="noopener noreferrer">github</a>
             |
           <Link to="/">voltar para home</Link>
         </p>
