@@ -40,7 +40,7 @@ const CategoryBlogList = props => {
   return (
     <>
       <Layout>
-        <SEO title="Categorias" />
+        <SEO title={`Papos sobre ${categoryTranslate}`} />
         <S.ContentContainer>
           <S.PostContainer>
             <h1 className="header">
