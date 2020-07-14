@@ -22,26 +22,26 @@ const OlarMobile = () => (
         <h1>olar,</h1>
       </S.OlarAvatarContainer>
       <S.OlarContentContainer>
-        <p>sou produteira na <a href="http://konduto.com/" target="_blank">konduto</a></p>
+        <p>sou produteira na <a href="http://konduto.com/" target="_blank" rel="noreferrer">konduto</a></p>
         <p>designer por formação</p>
         <p>aquariana por sorte</p>
         <p>e curiosa pelas coisas que falo aqui</p>
         <br />
         <p>se quiser bater um papo, pode me achar nesses lugares:</p>
         <br />
-        <Link to={socialLinks.twitter.url} target="_blank">
+        <Link to={socialLinks.twitter.url} target="_blank" rel="noreferrer">
           {socialLinks.twitter.label}
         </Link>
-        <Link to={socialLinks.instagram.url} target="_blank">
+        <Link to={socialLinks.instagram.url} target="_blank" rel="noreferrer">
           {socialLinks.instagram.label}
         </Link>
-        <Link to={socialLinks.github.url} target="_blank">
+        <Link to={socialLinks.github.url} target="_blank" rel="noreferrer">
           {socialLinks.github.label}
         </Link>
-        <Link to={socialLinks.behance.url} target="_blank">
+        <Link to={socialLinks.behance.url} target="_blank" rel="noreferrer">
           {socialLinks.behance.label}
         </Link>
-        <Link to={socialLinks.linkedin.url} target="_blank">
+        <Link to={socialLinks.linkedin.url} target="_blank" rel="noreferrer">
           {socialLinks.linkedin.label}
         </Link>
       </S.OlarContentContainer>
@@ -58,7 +58,7 @@ const OlarMobile = () => (
         <p>
           <Link
             to="https://github.com/fernandadias/nandadias-blog"
-            target="_blank">github</Link>
+            target="_blank" rel="noreferrer">github</Link>
             |
           <Link to="/">voltar para home</Link>
         </p>

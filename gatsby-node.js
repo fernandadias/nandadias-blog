@@ -60,6 +60,12 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
+      categoryGroup: allMarkdownRemark(limit: 2000) {
+        group(field: frontmatter___category) {
+          fieldValue
+          totalCount
+        }
+      }
     }
   `).then(result => {
 
@@ -94,5 +100,19 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
+
+    // Extract category data from query
+    const category = result.data.categoryGroup.group
+    // Make category pages
+    category.forEach(category => {
+      createPage({
+        path: `/category/${category.fieldValue}/`,
+        component: path.resolve(`./src/templates/category-list.js`),
+        context: {
+          category: category.fieldValue,
+        },
+      })
+    })
+
   })
 }

@@ -18,6 +18,43 @@ export const PostContainer = styled.section`
   max-width: 900px;
   padding-right: 40px;
 
+  .header{
+    color: var(--titles);
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 16px;
+
+    span{
+      padding: 2px 5px;
+      margin-left: 8px;
+      color: var(--background);
+
+      &.design{
+        background: var(--designColor);
+      }
+      &.product{
+        background: var(--productColor);
+      }
+      &.front{
+        background: var(--frontColor);
+      }
+      &.data{
+        background: var(--dataColor);
+      }
+      &.music{
+        background: var(--musicColor);
+      }
+      &.back{
+        background: var(--backColor);
+      }
+
+    }
+
+  }
+
   @media(max-width: 900px){
     padding: 0 0 80px 0;
   }

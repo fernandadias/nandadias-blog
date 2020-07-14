@@ -2,6 +2,7 @@
 date: 2014-01-31 05:54:23
 title: Waiting to die
 category: design
+tags: ["animals", "Chicago", "zoos"]
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
