@@ -7,6 +7,7 @@ module.exports = {
     title: `nanda dias`,
     description: `designer que também gosta de papos sobre front-end, back-end, dados, música e produto`,
     author: `@nandadiasmusic`,
+    siteUrl: `https://nandadias.com.br`,
   },
   plugins: [
     {

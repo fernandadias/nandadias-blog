@@ -2,6 +2,7 @@
 date: 2014-01-31 05:54:23
 title: Waiting to die
 category: design
+description: Uma descrição aqui
 tags: ["animals", "Chicago", "zoos"]
 ---
 

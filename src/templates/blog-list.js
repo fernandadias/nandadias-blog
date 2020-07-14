@@ -24,7 +24,7 @@ const BlogList = props => {
   return (
     <>
       <Layout>
-        <SEO title="Home" />
+        <SEO title="meu blog" />
         <S.ContentContainer>
           <S.PostContainer>
             {postList.map(({

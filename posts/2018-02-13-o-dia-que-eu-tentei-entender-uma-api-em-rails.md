@@ -2,6 +2,7 @@
 date: 2018-02-13 05:54:23
 title: o dia que eu tentei entender uma api em rails
 category: data
+description: outra descrição aqui
 image: "/assets/img/desert.jpg"
 ---
 
