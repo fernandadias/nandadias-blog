@@ -12,6 +12,7 @@ export const MobileFooterContainer = styled.section`
   justify-content: space-between;
   bottom: 0;
   overflow: hidden;
+  height: 80px;
 
   @media(min-width: 900px){
     display: none;
@@ -33,6 +34,8 @@ export const Categories = styled.div`
     letter-spacing: 0.02em;
 
     color: var(--texts);
+
+    display: inline-table;
 
     &:hover{
       cursor: pointer;

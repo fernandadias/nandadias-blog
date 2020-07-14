@@ -46,17 +46,20 @@ export const SocialLinks = styled.div`
 export const MenuLink = styled(Link)`
   display: inline;
   padding: 0 0 16px 0;
-  border: 1px solid var(--background);
   text-decoration: none;
   font-size: 12px;
   padding: 2px 8px;
 
-  background: var(--background);
-  color: var(--texts);
-
   &:hover{
     background: var(--theme);
-    color: var(--solid);
+
+    span.icon path{
+      color: var(--theme);
+    }
+
+    span{
+      color: var(--solid);
+    }
   }
 
   .icon{
@@ -64,10 +67,15 @@ export const MenuLink = styled(Link)`
     width: 20px;
     transform: rotate(90deg);
     display: none;
+
+    path{
+      color: var(--texts);
+    }
   }
 
   .text{
     display: inline-block;
+    color: var(--texts);
   }
 
 
