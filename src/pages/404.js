@@ -6,7 +6,7 @@ import GlobalStyles from '../styles/global'
 
 import NotFoundGIF from '../images/gifs/notfound-02.gif'
 
-import * as S from './styles'
+import * as S from '../components/styles'
 
 const NotFoundPage = () => (
   <>
