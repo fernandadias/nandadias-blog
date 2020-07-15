@@ -70,11 +70,11 @@ A quick look at the top-level important files and directories.
 1.  **`/posts`**: This directory contains all of markdown for posts. They was generate from NetlifyCMS.
 
 2.  **`/src`**: This directory contains all of the code related to what you will see on the front-end.
-    - **components**:  All styled components. They were structured following a pattern of `index.js` for the react code and importing (` import * as S from './styles'`) the styles of `styles.js`, a file that is in the same folder.
-    - **images**: All static images used in project (in the end was just my avatar photo and 404 gif).
-    - **pages**: Here have templates for static pages.
-    - **styles**: Global styles for reset, fonts and css vars.
-    - **templates**: This directory contains templates for pages that batsby build will generate (for feed and posts page).
+    - `components`:  All styled components. They were structured following a pattern of `index.js` for the react code and importing (` import * as S from './styles'`) the styles of `styles.js`, a file that is in the same folder.
+    - `images`: All static images used in project (in the end was just my avatar photo and 404 gif).
+    - `pages`: Here have templates for static pages.
+    - `styles`: Global styles for reset, fonts and css vars.
+    - `templates`: This directory contains templates for pages that batsby build will generate (for feed and posts page).
     - **utils**: Graphql query for post content in Algolia.
 
 3.  **`gatsby-node.js`**: This file is where I put all back-end configs, using [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/).
@@ -83,3 +83,22 @@ A quick look at the top-level important files and directories.
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+## 💻 Usage
+
+Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
+
+```bash
+npm install
+```
+
+```bash
+yarn install
+```
+
+**Running**
+In order to run this project you need to execute `gatsby develop` to build develop mode off gatsby and `gatsby build` to build in production mode.
+
+## Contributing
+
+Pull requests are always welcome 😃.
