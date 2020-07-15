@@ -19,7 +19,7 @@ const Share = ({ category, title, slug }) => {
       <a href={`mailto:oi@gmail.com?&subject=${title}&body=https://nandadias.com.br${slug}`}
         target="_blank"
         rel="noopener noreferrer">email</a>
-      <a href="$" onClick={(e) => {
+      <a onClick={(e) => {
         e.preventDefault();
         navigator.clipboard.writeText(`https://nandadias.com.br${slug}`)
       }}>copiar link</a>

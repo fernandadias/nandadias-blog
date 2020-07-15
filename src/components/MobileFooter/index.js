@@ -19,7 +19,7 @@ const MobileFooter = () => {
   return (
     <S.MobileFooterContainer>
       <S.Categories>
-        <Link to="$">assuntos</Link>
+
       </S.Categories>
       <S.Icons>
         <Link to="/search"><Icons.Search /></Link>
