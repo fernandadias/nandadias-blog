@@ -2,7 +2,7 @@ backend:
   name: github
   repo: fernandadias/nandadias-blog
   branch: master # Branch to update (optional; defaults to master)
-  site_domain: https://www.nandadias.com.br/
+  site_domain: www.nandadias.com.br
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
