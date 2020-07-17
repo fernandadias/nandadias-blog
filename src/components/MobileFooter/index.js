@@ -8,6 +8,8 @@ import * as S from './styles'
 
 const MobileFooter = () => {
 
+  const [openFooter, setOpenFooter] = useState(false)
+
   const [theme, setTheme] = useState(null)
   const isDarkMode = theme === 'dark'
 
@@ -17,9 +19,9 @@ const MobileFooter = () => {
   }, [])
 
   return (
-    <S.MobileFooterContainer>
+    <S.MobileFooterContainer className={openFooter ? 'open' : 'close'}>
       <S.Categories>
-
+        <a onClick={() => setOpenFooter(!openFooter)}>assuntos</a>
       </S.Categories>
       <S.Icons>
         <Link to="/search"><Icons.Search /></Link>

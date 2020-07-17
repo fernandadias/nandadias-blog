@@ -14,6 +14,10 @@ export const MobileFooterContainer = styled.section`
   overflow: hidden;
   height: 80px;
 
+  &.open{
+    height: 480px;
+  }
+
   @media(min-width: 900px){
     display: none;
   }
