@@ -31,7 +31,7 @@ const Sidebar = () => {
         <S.MenuLink to="/" onClick={() => {
           window.__setPreferredTheme(isDarkMode ? 'light' : 'dark')
         }}>
-          <span className="text">acender a luz</span>
+          <span className="text">{isDarkMode ? `acender` : `apagar`} a luz</span>
           <span className="icon"><Icons.Light /></span>
         </S.MenuLink>
       </S.ActionLinks>
