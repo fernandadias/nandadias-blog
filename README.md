@@ -75,7 +75,7 @@ A quick look at the top-level important files and directories.
     - `pages`: Here have templates for static pages.
     - `styles`: Global styles for reset, fonts and css vars.
     - `templates`: This directory contains templates for pages that batsby build will generate (for feed and posts page).
-    - **utils**: Graphql query for post content in Algolia.
+    - `utils`: Graphql query for post content in Algolia.
 
 3.  **`gatsby-node.js`**: This file is where I put all back-end configs, using [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/).
 
