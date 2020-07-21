@@ -80,10 +80,6 @@ A quick look at the top-level important files and directories.
 3.  **`gatsby-node.js`**: This file is where I put all back-end configs, using [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/).
 
 
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
 ## 💻 Usage
 
 Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
