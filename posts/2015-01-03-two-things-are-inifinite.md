@@ -1,7 +1,10 @@
 ---
+title: tentei criar um modelo preditivo com base em gostos musicais
+description: tenho a percepção de que isso da bom, mas não sei se cheguei num
+  bom modelo ainda
 date: 2015-01-03 05:54:23
-title: Two things are infinite
-category: front
+thumbnail: assets/img/desert.jpg
+category: data
 ---
 
 # Lorem ipsum
