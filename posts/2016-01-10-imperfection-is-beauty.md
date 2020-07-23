@@ -1,6 +1,9 @@
 ---
-date: 2016-01-10 05:54:23
-title: Imperfection is beauty, madness is genius
+title: rodando pesquisas num produto B2B
+description: o que aprendi nesses 6 meses usando diversos métodos de pesquisas e
+  o que ainda preciso aprender
+date: 2016-06-10 05:54:00
+thumbnail: assets/img/desert.jpg
 category: product
 ---
 
