@@ -2,7 +2,7 @@
 title: como eu aprendi sobre o Product Manager Bottleneck
 description: "Entregas atrasadas, estresse desnecessário e equipe sem autonomia:
   resultados do PM Bottleneck"
-date: 2020-07-30 08:46:03
+date: 2020-07-02 08:46:03
 thumbnail: assets/img/nanda-dias-o-que-aprendi-sobre-product-manager-bottleneck.jpeg
 category: product
 ---
