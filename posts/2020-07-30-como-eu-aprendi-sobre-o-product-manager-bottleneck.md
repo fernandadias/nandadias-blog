@@ -8,7 +8,7 @@ category: product
 ---
 Era um dia bem típico de SP: uns 18 graus, clima seco, pessoas em escala de cinza e paulista cheia. Passei na padaria pra pegar um pão de queijo e um café. Uma quinta tranquila como as outras.
 
-Provavelmente eu estava escutando [o som que vou te recomendar agora](https://open.spotify.com/album/0TXzOGlqSKpRlpR8FDEzZL?highlight=spotify:track:20xGCo14PHgTfYHeD2oN6v) enquanto subia o elevador do prédio. É um som que eu escuto, em geral, quando quero esvaziar a mente pra começar o dia. Gosto bastante da vibe e espero que te acompanhe bem enquanto lê esse texto.
+Provavelmente eu estava escutando [esse som](https://open.spotify.com/album/0TXzOGlqSKpRlpR8FDEzZL?highlight=spotify:track:20xGCo14PHgTfYHeD2oN6v) enquanto subia o elevador do prédio. É um som que eu escuto, em geral, quando quero esvaziar a mente pra começar o dia. Gosto bastante da vibe e espero que te acompanhe bem enquanto lê esse texto.
 
 Chegando no escritório respirei fundo e comecei o dia com todas as boas energias possíveis. Primeiras horas para alinhar os relatórios sobre as demandas de customer success e as métricas, algumas horas avaliando os dados dos últimos releases, reunião com o time de operações, acompanhamento das cerimônias de engenharia, almoço, reunião com marketing, call com cliente, reunião com o time de dados... Ops, fim do dia.
 
