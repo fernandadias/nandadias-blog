@@ -8,7 +8,7 @@ category: front
 ---
 Acho que existe uma caminhada comum quando o assunto é css: chutar, chutar muito, chutar mais um tanto e começar a estudar. Pois é, depois de muita gambiarra patrocinada por mim venho por meio desse contar as minhas descobertas atuais sobre **css floats** e que te ajude a tomar decisões mais conscientes nos seus próximos layouts.
 
-# Como e quando usar
+# Como usar
 
 O `float` te ajuda a "flutuar" elementos para a esquerda ou para a direita do viewport (basicamente).
 
@@ -47,7 +47,7 @@ Mas não é bem assim, na verdade o conteúdo está todo lá atrás ocupando a p
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-\# Entendendo os fluuxos do html
+\# Entendendo os fluxos do html
 
 O que acontece aqui é que o \`float\` cria um novo fluxo no html e pra entender vamos dar meio passo pra trás e pincelar sobre o fluxo do html.
 
@@ -57,4 +57,10 @@ Sendo o html uma linguagem de marcação de texto e o texto é estruturado (line
 
 **Mas por que o texto ficou centralizado?** Taí outra magía dos princípios do html. O html sempre manterá seus textos no fluxo superior existente então, mesmo o elemento pertencendo a um fluxo inferior o texto está ocupando o espaço do fluxo superior. Uma forma nativa de garantir que "a informação sempre será passada".
 
-Existe outro ponto importante
+# Como usar
+
+Já usei muito o `float` para layout, mas hoje com `flex-box` e `css-grid` não vejo muitos motivos para usar nos layouts do dia a dia. Semanticamente vejo muito feat do uso do float para blocos inseridos dentro de textos (imagens, por exemplo).
+
+Como boa aquariana sou zero-regras, mas é bem importante perceber o que está acontecendo por baixo dos panos para garantir que o comportamento esperado está realmente acontecendo.
+
+Espero ter ajudado nos seus próximos layouts :)
