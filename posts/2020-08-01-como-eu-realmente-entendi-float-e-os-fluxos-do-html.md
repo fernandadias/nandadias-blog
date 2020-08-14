@@ -6,7 +6,7 @@ date: 2020-07-07 02:44:02
 thumbnail: assets/img/nanda-dias-como-eu-realmente-entendi-float-e-os-fluxos-do-html.jpeg
 category: front
 ---
-Acho que existe uma caminhada comum quando o assunto é css: chutar, chutar muito, chutar mais um tanto e começar a estudar. Pois é, depois de muita gambiarra patrocinada por mim venho por meio desse contar as minhas descobertas atuais sobre **css floats** e que te ajude a tomar decisões mais conscientes nos seus próximos layouts.
+Acho que existe uma caminhada comum quando o assunto é css: chutar, chutar muito, chutar mais um tanto e começar a estudar. Pois é, depois de muita gambiarra patrocinada por mim venho por meio desse contar as minhas descobertas atuais sobre **css floats** e espero que te ajude a tomar decisões mais conscientes nos seus próximos layouts.
 
 # Como usar
 
@@ -28,24 +28,15 @@ Eu não sabia, e quando entendi fez sentido a quantidade de gambiarras que já f
 
 ![Um quadrado anarelo a esquerda com "float:leaft" escrito dentro, um texto "Texto que não vai flutuar" no centro e um quadrado azul com "float: right" escrito dentro](assets/img/nanda-dias-como-eu-realmente-entendi-float-e-os-fluxos-do-html-01.png)
 
-Criando um layout hipotético de um blog estilo anos 90, poderíamos imaginar que o nosso layout já estava pronto com o menu sendo a div amarela à esquerda, os posts mais vistos à direita na div amarela e o conteúdo dos posts ao centro.
+Criando um layout hipotético de um blog estilo anos 90, poderíamos imaginar que o nosso layout já estava pronto com o menu sendo a div amarela à esquerda, os posts mais vistos à direita na div azul e o conteúdo dos posts ao centro.
 
 Mas temos um problemas aqui, olhando assim temos a sensação de que esse conteúdo está realmente no meio da página. Algo como:
 
 ![](assets/img/nanda-dias-como-eu-realmente-entendi-float-e-os-fluxos-do-html-02.png)
 
-
-
 Mas não é bem assim, na verdade o conteúdo está todo lá atrás ocupando a página inteira. Assim:
 
 ![](assets/img/nanda-dias-como-eu-realmente-entendi-float-e-os-fluxos-do-html-03.png)
-
-<p class="codepen" data-height="305" data-theme-id="dark" data-default-tab="css,result" data-user="NandaDias" data-slug-hash="xxZvJPV" style="height: 305px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="xxZvJPV">
-  <span>See the Pen <a href="https://codepen.io/NandaDias/pen/xxZvJPV">
-  xxZvJPV</a> by Nanda Dias (<a href="https://codepen.io/NandaDias">@NandaDias</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 \# Entendendo os fluxos do html
 
