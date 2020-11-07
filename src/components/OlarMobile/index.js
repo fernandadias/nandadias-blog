@@ -22,7 +22,7 @@ const OlarMobile = () => (
         <h1>olar,</h1>
       </S.OlarAvatarContainer>
       <S.OlarContentContainer>
-        <p>sou produteira na <a href="http://konduto.com/" target="_blank" rel="noreferrer">konduto</a></p>
+        <p>sou produteira no <a href="https://medium.com/ifood-tech" target="_blank" rel="noreferrer">ifood</a></p>
         <p>designer por formação</p>
         <p>aquariana por sorte</p>
         <p>e curiosa pelas coisas que falo aqui</p>
