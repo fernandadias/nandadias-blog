@@ -1,5 +1,5 @@
 ---
-title: Como produção musical me ajuda a ser uma UX Designer melhor (e vice e versa)
+title: como produção musical me ajuda a ser uma UX Designer melhor (e vice e versa)
 description: Afinal, queremos que nossos produtos marquem tanto a vida das
   pessoas como suas músicas favoritas. Não é mesmo?
 date: 2019-01-05 09:56:59
