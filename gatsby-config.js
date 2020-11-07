@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `nanda dias`,
     description: `designer que também gosta de papos sobre front-end, back-end, dados, música e produto`,
-    author: `@nandadiasmusic`,
+    author: `@nandadias`,
     siteUrl: `https://nandadias.com.br`,
   },
   plugins: [
@@ -63,6 +63,13 @@ module.exports = {
               maxWidth: 900,
               linkImagesToOriginal: false
             }
+          },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              destinationDir: `path/to/dir`,
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
+            },
           },
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,

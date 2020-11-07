@@ -15,7 +15,7 @@ const BlogPost = ({ data, pageContext }) => {
   const previous = pageContext.previousPost
 
   const post = data.markdownRemark
-  const { title, category, date, description, image } = post.frontmatter
+  const { title, category, date, description, thumbnail } = post.frontmatter
   const { timeToRead, html } = post
   const { slug } = post.fields
   let categoryTranslate = category
@@ -45,7 +45,7 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO
         title={title}
         description={description}
-        image={image}
+        image={thumbnail}
       />
       <S.ContentContainer>
         <S.PostContainer>
@@ -86,7 +86,7 @@ export const query = graphql`
         title
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         category
-        image
+        thumbnail
       }
       html
       timeToRead

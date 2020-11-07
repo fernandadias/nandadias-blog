@@ -33,6 +33,7 @@ export const OlarContainer = styled.div`
     
     a{
       text-decoration: none;
+      color: var(--theme);
 
       &:hover{
         text-decoration: underline;
