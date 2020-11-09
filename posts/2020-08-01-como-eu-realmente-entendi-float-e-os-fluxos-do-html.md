@@ -1,6 +1,6 @@
 ---
-title: como eu realmente entendi float e os fluxos do html
-description: espero que esse texto te ajude a parar de chutar a propriedade
+title: A propriedade float e os fluxos do html
+description: Espero que esse texto te ajude a parar de chutar a propriedade
   float nos seus próximos estilos
 date: 2020-07-07 02:44:02
 thumbnail: assets/img/nanda-dias-como-eu-realmente-entendi-float-e-os-fluxos-do-html.jpeg
