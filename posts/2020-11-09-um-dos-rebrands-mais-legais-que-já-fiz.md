@@ -1,6 +1,6 @@
 ---
-title: um dos rebrands mais legais que já fiz
-description: o processo de criação da nova identidade da Konduto
+title: Um dos rebrands mais legais que já fiz
+description: O processo de criação da nova identidade da Konduto
 date: 2020-02-02 02:59:19
 thumbnail: assets/img/mountains.jpg
 category: design
@@ -17,12 +17,10 @@ Esse é o cenário que me da mais segurança para sugerir um redesign. A empresa
 
 ## Quando a marca deixa de simbolizar a empresa
 
-O mundo muda toda hora, evolui e se transforma. Hoje eu não me sinto representada por muitas músicas que cantei feliz nos anos 90, e isso também pode acontecer com as marcas.
+O mundo muda toda hora, evolui e se transforma. Hoje, por exemplo, eu não me sinto representada por muitas músicas que cantei feliz nos anos 90, e isso também pode acontecer com as marcas.
 Ideias, imagens e pensamentos que faziam sentido no passado podem não fazer mais hoje. E um redesign pode ser a melhor alternativa nesse cenário.
 
-## Quando precisamos diferenciar da concorrencia
+A Konduto estava passando exatamente por esses dois momentos. A empresa havia mudado muito nos últimos 4 anos e percebia que a imagem que imprimia em sua marca não tinha mais ligação com a empresa. Eu aceitei o desafio de tocar esse projeto e conto aqui os resultados desse que foi um dos rebrands mais legais que já fiz.
 
-
-
-* Quando precisamos mudar a colocação visual da marca
+# 
 
