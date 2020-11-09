@@ -1,5 +1,5 @@
 ---
-title: como eu conheci o Product Manager Bottleneck
+title: Product Manager Bottleneck
 description: asd
 date: 2020-07-30 05:03:10
 thumbnail: assets/img/nanda-dias-o-que-aprendi-sobre-product-manager-bottleneck.jpeg
