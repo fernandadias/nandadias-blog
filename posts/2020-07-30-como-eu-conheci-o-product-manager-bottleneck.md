@@ -1,6 +1,6 @@
 ---
 title: Product Manager Bottleneck
-description: asd
+description: Me peguei querendo saber de tudo, mas sem capacidade de executar nada
 date: 2020-07-30 05:03:10
 thumbnail: assets/img/nanda-dias-o-que-aprendi-sobre-product-manager-bottleneck.jpeg
 category: product
