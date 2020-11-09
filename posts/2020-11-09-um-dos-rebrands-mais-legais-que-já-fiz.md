@@ -22,5 +22,25 @@ Ideias, imagens e pensamentos que faziam sentido no passado podem não fazer mai
 
 A Konduto estava passando exatamente por esses dois momentos. A empresa havia mudado muito nos últimos 4 anos e percebia que a imagem que imprimia em sua marca não tinha mais ligação com a empresa. Eu aceitei o desafio de tocar esse projeto e conto aqui os resultados desse que foi um dos rebrands mais legais que já fiz.
 
-# 
+Aqui está a defesa de conceito que fiz:
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwCXK9jg61s1y90UcS4vX_1IR1mEY8QBJzBy3sShOyk-U7YTjDoReq_m--0Shz39Yhsv9vh3LVc1EG/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+Mas vou explicar com detalhes aqui em baixo as etapas
+
+# Entendendo o que mudou
+
+Esse alinhamento foi feito através de alguns workshops junto com os stakeholders da Konduto para entender o que realmente significava essa mudança que a empresa teve.
+
+Em uma das rodadas dos workshops rolou uma frase que me chamou a atenção e foi perfeita para simbolizar essa mudança:
+
+> Crescemos, evoluímos, amadurecemos e nos tornamos mais profissionais. Temos uma **nova maneira** de encarar o mercado e o mercado nos encara também de uma **maneira diferente**.
+
+Com isso definimos palavras para ilustrarem essa mudança:
+
+* Deixamos de ser **uma startup** para ser **uma empresa**
+* Já fomos conhecidos como **nerds** e hoje somos conhecidos como uma empresa que reúne **tecnologia e pessoas**
+* Antes tínhamos apenas uma **ideia** de negócio, agora somos uma **autoridade** no assunto
+
+Por último fizemos uma nuvem de palavras 
+
 
