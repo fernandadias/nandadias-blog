@@ -1,5 +1,5 @@
 ---
-title: Como dar mais autonomia pro time de engenharia se aventurar em design
+title: Dando mais autonomia pro time de engenharia se aventurar em design
 description: asd
 date: 2020-04-23 02:08:36
 thumbnail: assets/img/photo-1493421419110-74f4e85ba126.jpeg
