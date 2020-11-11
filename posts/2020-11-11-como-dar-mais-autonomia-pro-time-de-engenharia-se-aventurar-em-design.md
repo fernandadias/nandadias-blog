@@ -16,3 +16,13 @@ Eu fiz o teste e recomendo que você faça também. (fazendo, cola aqui pra me c
 É importante que quem é "o responsável" pelo design coloque esse chapéu de trazer a cultura pro time. As aspas sao pelo fato que nem sempre o design lead é essa pessoa... Vejo como responsável por esse chapéu a pessoa que tiver mais contato tanto com os engenheiros quanto com a equipe de design. Se os designers tiverem, maravilha... Caso contrário vale o PM pegar esse chapéu.
 
 Coisas que no dia a dia trazem a cultura pro time:
+
+
+### Use imagens para complementar ideias.
+O visual ajuda a comunicar o que o texto não consegue. Ao invés de obrigar que a pessoa cruze as informações do seu texto em sua mente, ajude a informação a ser compreendida logo de cara.
+
+### Dê toda a atenção para informações
+Pode ser a issue mais simples, sempre existem detalhes que merecem atenção. Use o design para comunicar isso abusando do contraste e da disposição das informações.
+
+### Use cores e simbolos
+Crie um guia com o seu time para facilitar o dia a dia. Isso não precisa ser um mega processo, mas detalhes para usarem entre vocês. Simbolos sobre os assuntos que mais falam, cores para simbilizar tipos de ações e até mesmo apelidos que ajudem a identificar assuntos.
