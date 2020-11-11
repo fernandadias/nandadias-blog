@@ -13,7 +13,7 @@ Por isso comecei a fazer listas do que dava errado durante o release (coisa que 
 
 Nem tudo cabe no mesmo release, nem para as mesmas pessoas. Mas essa lista me ajuda a repensar a comunicação e melhorá-la sempre.
 
-### Introdução: motivações
+### Introdução: Motivações
 
 Essa é a parte que mais errei (acho). Sempre imaginei que tinha conseguido a atenção das pessoas envolvidas durante o processo, por isso não precisava de tantos detalhes aqui. Doce engano rs.
 
@@ -41,7 +41,7 @@ Aprendi a não pensar sozinha nessa parte. Existem riscos que envolvem o produto
 * Haverá treinamento interno? Se sim, quando?
 * Quais são os principais indicadores? Onde podemos acompanhar? Quem é o responsável pelo acompanhamento?
 
-### Estratégia externa: Jogando o Jogo
+### Estratégia externa: Jogando o jogo
 
 Nessa parte eu separo os materiais mais "comerciais" do release. Em geral atrelo com um video demo, animações com o slogan ou qualquer outro material que ajude a engajar os stakeholders envolvidos na adesão da feature.
 
@@ -51,7 +51,7 @@ Nessa parte eu separo os materiais mais "comerciais" do release. Em geral atrelo
 * O que muda no produto e na empresa com essa feature?
 * O que nos fará criar um HH para comemorar?
 
-### Final: Próximos Passos & Resultados
+### Final: Próximos passos & Resultados
 
 Essa parte eu ainda estou na dúvida se realmente dá certo (espero ter certeza sobre daqui a mais 1 ano). 
 
