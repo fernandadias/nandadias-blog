@@ -1,7 +1,7 @@
 ---
 title: Ser "Product Manager" precisa mesmo ser tão complicado?
 description: Duras verdades que entendi nesse tempo
-date: 2020-11-11 01:58:34
+date: 2020-05-05 01:58:34
 thumbnail: assets/img/photo-1489850846882-35ef10a4b480.jpeg
 category: product
 ---
