@@ -2,7 +2,7 @@
 title: Como dar mais autonomia pro time de engenharia se aventurar em design
 description: asd
 date: 2020-04-23 02:08:36
-thumbnail: assets/img/51528050_2066101926791465_8687453980529262592_n-1200x675.jpg
+thumbnail: assets/img/photo-1493421419110-74f4e85ba126.jpeg
 category: design
 ---
 Talvez você me ache doida pelo título ou pense que é clickbait a base de polêmica rs, mas não é nenhum dos dois. Eu realmente acredito que quanto mais pessoas no time tiverem autonomia para expressar suas ideias através do design, mais rápido e claro nos tornamos.
@@ -17,12 +17,12 @@ Eu fiz o teste e recomendo que você faça também. (fazendo, cola aqui pra me c
 
 Coisas que no dia a dia trazem a cultura pro time:
 
-
-### Use imagens para complementar ideias.
+### Usar imagens para complementar ideias.
 O visual ajuda a comunicar o que o texto não consegue. Ao invés de obrigar que a pessoa cruze as informações do seu texto em sua mente, ajude a informação a ser compreendida logo de cara.
 
-### Dê toda a atenção para informações
+### Dar toda a atenção para informações
 Pode ser a issue mais simples, sempre existem detalhes que merecem atenção. Use o design para comunicar isso abusando do contraste e da disposição das informações.
 
-### Use cores e simbolos
+### Usar cores e simbolos comuns para equipe
 Crie um guia com o seu time para facilitar o dia a dia. Isso não precisa ser um mega processo, mas detalhes para usarem entre vocês. Simbolos sobre os assuntos que mais falam, cores para simbilizar tipos de ações e até mesmo apelidos que ajudem a identificar assuntos.
+
