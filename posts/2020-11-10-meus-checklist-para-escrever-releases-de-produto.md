@@ -2,7 +2,7 @@
 title: Checklist para escrever releases de produto
 description: Criei esses guias para não me perder, espero que te ajude também
 date: 2020-08-09 06:37:05
-thumbnail: assets/img/desert.jpg
+thumbnail: assets/img/glenn-carstens-peters-rlw-uc03gwc-unsplash.jpg
 category: product
 ---
 Caí de cabeça na vida de produteira e como boa aquariana que sou estava enlouquecida já no segundo mês.
