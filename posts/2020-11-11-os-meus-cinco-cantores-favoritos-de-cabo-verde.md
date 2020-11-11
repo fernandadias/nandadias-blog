@@ -15,8 +15,6 @@ No assunto beleza, CB tem de sobra. As ilhas são separadas pelo movimento do ve
 
 ![Uma vista de cima de uma das praias de Cabo Verde](assets/img/ej6kktiwoau-l8d.jpeg "Uma das praias da Ilha de Santiago, em Cabo Verde")
 
-
-
 Feitas as devidas apresentações, segue a lista dos artistas que recomendo muito:
 
 \## 5: Dino d’Santiago
@@ -60,6 +58,8 @@ Vou recomendar a música dela que mais gosto: Sodade!
 <iframe src="https://open.spotify.com/embed/track/7xzMrUmlooPa1Fmp88hlYc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 \## 1: Mayra Andrade
+
+![Foto, preto e branco, da Mayra Andrade sorrindo](assets/img/51528050_2066101926791465_8687453980529262592_n-1200x675.jpg "Mayra Andrade")
 
 É simplesmente a cantora mais incrível no meu universo musical (fã feelings rs). Ela nasceu em Cuba, mas canta muitas músicas em lingua Criolo (e também em português, inglês e francês).
 
