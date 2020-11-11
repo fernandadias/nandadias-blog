@@ -32,7 +32,7 @@ Aqui é o meu termômetro: quanto mais tensa fico nessa parte, mais acredito que
 
 Confesso que por duas vezes eu posterguei releases e voltei para conversar com o time exatamente nessa fase.
 
-Aprendi a não pensar sozinha nessa parte. Existem riscos que envolvem o produto que por mais empatica que eu seja, só quem realmente lida com eles que saberá os pontos fracos. 
+Aprendi a não pensar sozinha nessa parte. Existem riscos que envolvem o produto que por mais empatica que eu tente ser, só quem realmente lida com eles que saberá os pontos fracos. 
 
 * Rolaram testes internos/beta? Se sim, quais os resultados? Se não o que nos impediu, qual o pior cenário e como vamos lidar com ele?
 * Quais os usuários impactados pela feature?
@@ -55,7 +55,7 @@ Nessa parte eu separo os materiais mais "comerciais" do release. Em geral atrelo
 
 Essa parte eu ainda estou na dúvida se realmente dá certo (espero ter certeza sobre daqui a mais 1 ano). 
 
-A minha ideia é criar um compromisso já no release do dia em que apresentarei os resultados, mas também das ações que faremos em seguida (com uma super certeza de que deu tudo certo). Tentei fazer isso em uma tentativa de engajar as pessoas para a apresentação dos resultados e também manter o meu time focado nos próximos passos... Mas na realidade conseguimos pouquíssimas vezes manter o plano rs. Mas ainda assim vou deixar aqui os pontos caso faça sentido pra você.
+A minha ideia é criar um compromisso já no release do dia em que apresentarei os resultados, mas também das ações que faremos em seguida (com uma super certeza de que deu tudo certo). Tentei fazer isso em uma tentativa de engajar as pessoas para a apresentação dos resultados e também manter o meu time focado nos próximos passos... Mas na realidade conseguimos pouquíssimas vezes manter o plano rs. Ainda assim vou deixar aqui os pontos caso faça sentido pra você.
 
 * Data da apresentação dos resultados
 * Pessoas importantes envolvidas (algum cliente que usou o beta, equipe comercial, imprensa...)
