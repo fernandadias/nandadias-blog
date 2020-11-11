@@ -1,7 +1,7 @@
 ---
 title: Hover entre font-weight sem dor de cabeça [drop]
 description: Pra quem já sofreu com esse conflito
-date: 2020-05-22 12:21:29
+date: 2020-01-19 12:21:29
 thumbnail: assets/img/ehvrbecxsaatfu_.jpeg
 category: front
 ---
