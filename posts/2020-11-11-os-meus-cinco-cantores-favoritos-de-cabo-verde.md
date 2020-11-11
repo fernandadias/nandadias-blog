@@ -17,7 +17,7 @@ No assunto beleza, CB tem de sobra. As ilhas são separadas pelo movimento do ve
 
 Feitas as devidas apresentações, segue a lista dos artistas que recomendo muito:
 
-\## 5: Dino d’Santiago
+## 5: Dino d’Santiago
 
 ![Foto do artista Dino d’Santiago, em um dia de sol, sentado na grade de uma varanda](assets/img/mw-860.jpeg " Dino d’Santiago")
 
@@ -27,7 +27,7 @@ Essa "Como seria" foi a música que me fez conhecer o som dele:
 
 <iframe src="https://open.spotify.com/embed/track/2wVtjY3hYUNo6hru52yZEM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-\## 4: Tito Paris
+## 4: Tito Paris
 
 ![Foto do Tito Paris em estudio](assets/img/download.jpeg "Tito Paris")
 
@@ -37,7 +37,7 @@ Essa "Gata Morena" foi a música que me fez conhecer o som dele:
 
 <iframe src="https://open.spotify.com/embed/track/4UEURvhnwk8I7PQHZS3vKy" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-\## 3: Sara Tavares
+## 3: Sara Tavares
 
 ![Foto da Sara Tavares](assets/img/captura-de-tela-2020-11-11-às-00.56.30.png "Sara Tavares")
 
@@ -47,7 +47,7 @@ A [Luiza Possi já regravou uma música dela](https://www.youtube.com/watch?v=fr
 
 <iframe src="https://open.spotify.com/embed/track/1HNr6b2TxwZ8yxuCU9jTMq" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-\## 2: Cesária Évora
+## 2: Cesária Évora
 
 ![Foto da Cesária Évora cantando](assets/img/image1170x530cropped.jpg "Cesária Évora")
 
@@ -57,7 +57,7 @@ Vou recomendar a música dela que mais gosto: Sodade!
 
 <iframe src="https://open.spotify.com/embed/track/7xzMrUmlooPa1Fmp88hlYc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-\## 1: Mayra Andrade
+## 1: Mayra Andrade
 
 ![Foto, preto e branco, da Mayra Andrade sorrindo](assets/img/51528050_2066101926791465_8687453980529262592_n-1200x675.jpg "Mayra Andrade")
 
