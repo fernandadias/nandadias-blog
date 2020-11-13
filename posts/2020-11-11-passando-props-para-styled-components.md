@@ -5,7 +5,7 @@ date: 2020-11-08 01:38:06
 thumbnail: assets/img/photo-1581276879432-15e50529f34b.jpeg
 category: front
 ---
-Uma das coisas mais chuchus que encontrei no react foi a forma somado aos styled-componentes podem fazer mágica. Usei muito o poder deles para construir esse blog (nas cores das categorias, por exemplo).
+Uma das coisas mais chuchus que encontrei no react foi a forma como ele e os styled-componentes podem fazer mágica. Usei muito o poder deles para construir esse blog (nas cores das categorias, por exemplo).
 
 Para ser mais simples aqui vamos pensar em um exemplo onde quero setar uma borda em um input quando a api retorna um erro.
 
@@ -14,10 +14,11 @@ A ideia é aplicar o estilo do estado `inputError`.
 ```typescript
 {inputError && <Error>{inputError}</Error>}
 // to aproveitando pra mostrar um span de alerta caso o estado inputError seja trufy
-``
+```
 
 ### Como funciona
 
+Criando a classe do componente que fará a requisição
 
 ```typescript
 const Dashboard: React.FC = () => {
@@ -49,6 +50,10 @@ const Dashboard: React.FC = () => {
   }
 ```
 
+
+
+E o render do componente
+
 ```typescript
 <Form hasError={!!inputError} onSubmit={handleAddRepository}>
   <input
@@ -59,8 +64,6 @@ const Dashboard: React.FC = () => {
   <button type="submit">Pesquisar</button>
 </Form>
 ```
-
-
 
 Feito isso, crio uma interface da propriedade:
 
@@ -93,4 +96,3 @@ Esse `css` foi importado do `styled-components` para colocar css dentro do templ
 ```typescript
 import styled, { css } from 'styled-components';
 ```
-
